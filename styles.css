@@ -1,0 +1,32 @@
+/* Modify the background color */
+.navbar {
+    background: black !important;
+  }
+
+body{
+    background-color: black;
+}
+
+#first_row {
+    height: 300px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#input_row{
+    background-color: yellow;
+    height: 100px;
+}
+
+.form-rounded {
+    border-radius: 10rem;
+    height: 50px;
+    
+}
+
+#input_column {
+    color: blue;
+}
+
