@@ -20,7 +20,6 @@ body{
 }
 
 #input_row{
-    /* background-color: yellow; */
     height: 100px;
 }
 
@@ -31,7 +30,6 @@ body{
 }
 
 #bar_bar {
-    /* background-color: brown; */
     height: 70px;
 }
 
@@ -39,8 +37,12 @@ body{
     margin-left: 15px;
 }
 
-#heading_row{
-    color: red;
+#search_heading{
+    color: rgb(228, 15, 15);
+    margin-top: 30px;
     margin-bottom: 60px;
-    margin-top: 50px;
+}
+
+#input_rows{
+    margin-bottom: 15px;
 }

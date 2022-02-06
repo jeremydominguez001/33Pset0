@@ -16,9 +16,6 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -55,34 +52,33 @@
         </div>
         <div class="col"></div></div>
     </div>
-    
-    <!-- Row for input & google search -->
+
+        <!-- Row for input & google search -->
     <form action="https://google.com/search">
         <div class="row align-items-center" id="input_row">
             <div class="w-25"></div>
-            <div class="w-50" align="center" id="input_column">
-                <input type="text" name="q" class="form-control form-rounded" placeholder="">
-            </div>
+            <div class="w-50" align="center">
+                    <input type="text" name="q" class="form-control form-rounded" placeholder="">
+                </div>
+                <div class="w-25"></div>
         </div>
-            
-            <!-- Row for buttons -->
+        <!-- Row for buttons -->
         <div class="row align-items-center" id="bar_bar">
             <div class="col w-25"></div>
             <div class=""col w-50" align="center">
                 <div class="btn-group">
                     <input type="submit" class="btn btn-light" value="Google Search">
-                    <input type="submit" name="btnI" class="btn btn-light" value="I'm Feeling Lucky" id="lucky_search">
-                    <!-- <a class="btn btn-light" href="http://www.google.com/search?q=%s&btnI=Im+Feeling+Lucky" role="button" id="lucky_search" >I'm Feeling Lucky</a> -->
+                    <a class="btn btn-light" href="http://www.google.com/search?q=%s&btnI=Im+Feeling+Lucky" role="button" id="lucky_search" >I'm Feeling Lucky</a>
                 </div>
             </div>
         </div>
     </form>
+    
 
 </div>
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
 </html>
 
@@ -91,13 +87,13 @@
 <!-- 
 Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
 On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
-On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
+On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page. 
 Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
 On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
 On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
 Find pages with… “all these words:”
 Find pages with… “this exact word or phrase:”
-Find pages with… “any of these words:”
+Find pages with… “this exact word or phrase:”
 Find pages with… “none of these words:”
 Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
 Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
